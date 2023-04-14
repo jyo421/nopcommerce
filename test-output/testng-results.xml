@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-23T17:53:40 IST" name="Suite" finished-at="2023-03-23T17:53:52 IST" duration-ms="11765">
+    <groups>
+    </groups>
+    <test started-at="2023-03-23T17:53:40 IST" name="ChromeTest" finished-at="2023-03-23T17:53:46 IST" duration-ms="6569">
+      <class name="nopcommerce.crossbrowser.Crossbrowser">
+        <test-method signature="launchapp(java.lang.String)[pri:0, instance:nopcommerce.crossbrowser.Crossbrowser@35ef1869]" started-at="2023-03-23T17:53:40 IST" name="launchapp" finished-at="2023-03-23T17:53:46 IST" duration-ms="6540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+      </class> <!-- nopcommerce.crossbrowser.Crossbrowser -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-23T17:53:47 IST" name="headless" finished-at="2023-03-23T17:53:52 IST" duration-ms="4403">
+      <class name="nopcommerce.crossbrowser.Crossbrowser">
+        <test-method signature="launchapp(java.lang.String)[pri:0, instance:nopcommerce.crossbrowser.Crossbrowser@7334aada]" started-at="2023-03-23T17:53:47 IST" name="launchapp" finished-at="2023-03-23T17:53:52 IST" duration-ms="4401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapp -->
+      </class> <!-- nopcommerce.crossbrowser.Crossbrowser -->
+    </test> <!-- headless -->
+  </suite> <!-- Suite -->
+</testng-results>
